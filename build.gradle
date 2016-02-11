@@ -40,6 +40,11 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    splits {
+        density {
+            enable true
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
